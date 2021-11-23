@@ -17,8 +17,17 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "jest --coverage"
   },
   "author": "tacianosilva",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@types/jest": "^27.0.3",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7"
+  }
 }
