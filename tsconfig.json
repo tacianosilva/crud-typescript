@@ -2,6 +2,7 @@
     "compilerOptions": {
       "target": "es5",
       "module": "commonjs",
+      "moduleResolution": "node",
       "outDir": "./dist",
       "strict": true,
       "noUnusedLocals": true,
@@ -11,5 +12,5 @@
       "esModuleInterop": true
     },
     "include": ["src/**/*"],
-    "exclude": ["node_modules", "**/*.test.ts"]
+    "exclude": ["node_modules", "**/*.test.ts", ".vscode"]
   }
